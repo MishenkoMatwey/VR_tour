@@ -1,0 +1,40 @@
+[
+  {
+    "name": "1",
+    "mass": [
+      {
+        "name": "2",
+        "yaw": 0,
+        "pitch": 0,
+        "room": false,
+        "info" : false
+      },
+      {
+        "name": "2_info",
+        "yaw": -0.1,
+        "pitch": 0.2,
+        "room": false,
+        "info" : true
+      }
+    ]
+  },
+  {
+    "name": "2",
+    "mass": [
+      {
+        "name": "1",
+        "yaw": 0,
+        "pitch": 0,
+        "room": false,
+        "info" : false
+      },
+      {
+        "name": "1_info",
+        "yaw": -0.1,
+        "pitch": 0.2,
+        "room": false,
+        "info" : true
+      }
+    ]
+  }
+]
