@@ -6,21 +6,25 @@ const surfaceModule = NativeModules.SurfaceModule;
 export default class MovePanel extends React.Component {
     state = {
         img: {
-            name: 'rec.png',
+            name: 'move1.png',
+            width: 60,
+            height: 60
+        },
+        img2: {
+            name: 'move2.png',
             width: 60,
             height: 60
         }
     }
 
     render() {
-        let {img} = this.state;
-
+        let img = this.props.room ? this.state.img2 : this.state.img;
         return (
             <View>
                 <VrButton onClick={
                     () => {
-                        surfaceModule.load_panel(this.props.id)
                         Environment.setBackgroundImage(asset(this.props.id + '.jpg'))
+                        surfaceModule.load_panel(this.props.id)
                     }}>
                     <Image source={asset(`${img.name}`)} style={{width: img.width, height: img.height}}/>
                 </VrButton>

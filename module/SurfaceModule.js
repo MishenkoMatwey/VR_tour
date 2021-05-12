@@ -36,7 +36,7 @@ export default class SurfaceModule extends Module {
 
                 let num = r360.renderToSurface(
                     r360.createRoot(obj.info ? rootNameInfo : rootNameMove,
-                        {id: obj.name}),
+                        {id: obj.name, room: obj.room}),
                     tmp[obj.name]
                 );
 
