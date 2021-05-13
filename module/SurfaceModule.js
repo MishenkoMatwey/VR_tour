@@ -29,8 +29,8 @@ export default class SurfaceModule extends Module {
             cord_panels.mass.forEach(obj => {
                 let tmp = {}
                 tmp[obj.name] = new Surface(
-                    60,
-                    60,
+                    100,
+                    100,
                     Surface.SurfaceShape.Flat
                 )
 
@@ -39,6 +39,7 @@ export default class SurfaceModule extends Module {
                         {id: obj.name, room: obj.room}),
                     tmp[obj.name]
                 );
+                console.log(obj.name)
 
                 tmp[obj.name].setAngle(
                     obj.yaw, /* yaw angle */

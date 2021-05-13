@@ -20,7 +20,7 @@ function init(bundle, parent, options = {}) {
     );
 
     // Load the initial environment
-    r360.compositor.setBackground(r360.getAssetURL('1.jpg'));
+    r360.compositor.setBackground(r360.getAssetURL('cord1.jpg'));
 }
 
 window.React360 = {init};

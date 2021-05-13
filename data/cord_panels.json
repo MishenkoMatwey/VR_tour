@@ -1,39 +1,304 @@
 [
   {
-    "name": "1",
+    "name": "cord1",
     "mass": [
       {
-        "name": "2",
+        "name": "cord2",
         "yaw": 0,
-        "pitch": 0,
+        "pitch": -0.2,
         "room": false,
-        "info" : false
+        "info": false
       },
       {
-        "name": "2_info",
-        "yaw": -0.1,
+        "name": "epam",
+        "yaw": 1.5,
+        "pitch": -0.2,
+        "room": true,
+        "info": false
+      },
+      {
+        "name": "epam_info",
+        "yaw": 1.2,
         "pitch": 0.2,
         "room": false,
-        "info" : true
+        "info": true
       }
     ]
   },
   {
-    "name": "2",
+    "name": "cord2",
     "mass": [
       {
-        "name": "1",
-        "yaw": 0,
-        "pitch": 0,
-        "room": true,
-        "info" : false
+        "name": "cord1",
+        "yaw": -0.05,
+        "pitch": -0.2,
+        "room": false,
+        "info": false
+      },
+      {
+        "name": "cord3",
+        "yaw": 3.05,
+        "pitch": -0.4,
+        "room": false,
+        "info": false
       },
       {
         "name": "1_info",
-        "yaw": -0.1,
+        "yaw": 1.5,
         "pitch": 0.2,
         "room": false,
-        "info" : true
+        "info": true
+      },
+      {
+        "name": "2_info",
+        "yaw": -1.5,
+        "pitch": 0.2,
+        "room": false,
+        "info": true
+      }
+    ]
+  },
+  {
+    "name": "cord3",
+    "mass": [
+      {
+        "name": "cord4",
+        "yaw": 3.05,
+        "pitch": -0.4,
+        "room": false,
+        "info": false
+      },
+      {
+        "name": "cord2",
+        "yaw": -0.18,
+        "pitch": -0.25,
+        "room": false,
+        "info": false
+      },
+      {
+        "name": "3402",
+        "yaw": 1.2,
+        "pitch": -0.2,
+        "room": true,
+        "info": false
+      },
+      {
+        "name": "3402_info",
+        "yaw": 1,
+        "pitch": 0.2,
+        "room": false,
+        "info": true
+      }
+    ]
+  },
+  {
+    "name": "cord4",
+    "mass": [
+      {
+        "name": "cord3",
+        "yaw": 3.1,
+        "pitch": -0.4,
+        "room": false,
+        "info": false
+      },
+      {
+        "name": "cord5",
+        "yaw": 0,
+        "pitch": -0.1,
+        "room": false,
+        "info": false
+      },
+      {
+        "name": "3_info",
+        "yaw": 1.5,
+        "pitch": 0.2,
+        "room": false,
+        "info": true
+      },
+      {
+        "name": "4_info",
+        "yaw": -1.9,
+        "pitch": 0.2,
+        "room": false,
+        "info": true
+      }
+    ]
+  },
+  {
+    "name": "cord5",
+    "mass": [
+      {
+        "name": "cord6",
+        "yaw": 0.05,
+        "pitch": -0.05,
+        "room": false,
+        "info": false
+      },
+      {
+        "name": "cord4",
+        "yaw": 3.2,
+        "pitch": -0.25,
+        "room": false,
+        "info": false
+      },
+      {
+        "name": "3410",
+        "yaw": 0.9,
+        "pitch": -0.1,
+        "room": true,
+        "info": false
+      },
+      {
+        "name": "3410_info",
+        "yaw": 0.7,
+        "pitch": 0.2,
+        "room": false,
+        "info": true
+      }
+    ]
+  },
+  {
+    "name": "cord6",
+    "mass": [
+      {
+        "name": "cord5",
+        "yaw": 3.05,
+        "pitch": -0.15,
+        "room": false,
+        "info": false
+      },
+      {
+        "name": "cord7",
+        "yaw": -0.05,
+        "pitch": -0.05,
+        "room": false,
+        "info": false
+      },
+      {
+        "name": "3400",
+        "yaw": 1.5,
+        "pitch": -0.1,
+        "room": true,
+        "info": false
+      },
+      {
+        "name": "3400_info",
+        "yaw": 1.2,
+        "pitch": 0.2,
+        "room": false,
+        "info": true
+      },
+      {
+        "name": "3404",
+        "yaw": -1.7,
+        "pitch": -0.1,
+        "room": true,
+        "info": false
+      },
+      {
+        "name": "3404_info",
+        "yaw": -2,
+        "pitch": 0.2,
+        "room": false,
+        "info": true
+      }
+    ]
+  },
+  {
+    "name": "cord7",
+    "mass": [
+      {
+        "name": "cord6",
+        "yaw": -0.1,
+        "pitch": -0.01,
+        "room": false,
+        "info": false
+      },
+      {
+        "name": "circle",
+        "yaw": -3.5,
+        "pitch": -0.01,
+        "room": true,
+        "info": false
+      },
+      {
+        "name": "circle_info",
+        "yaw": -3.6,
+        "pitch": 0.15,
+        "room": false,
+        "info": true
+      }
+    ]
+  },
+  {
+    "name": "3400",
+    "mass": [
+      {
+        "name": "cord6",
+        "yaw": 0,
+        "pitch": -0.01,
+        "room": true,
+        "info": false
+      }
+    ]
+  },
+  {
+    "name": "3404",
+    "mass": [
+      {
+        "name": "cord6",
+        "yaw": -2.2,
+        "pitch": -0.2,
+        "room": true,
+        "info": false
+      }
+    ]
+  },
+  {
+    "name": "3402",
+    "mass": [
+      {
+        "name": "cord3",
+        "yaw": 0.4,
+        "pitch": -0.1,
+        "room": true,
+        "info": false
+      }
+    ]
+  },
+  {
+    "name": "3410",
+    "mass": [
+      {
+        "name": "cord5",
+        "yaw": -1.8,
+        "pitch": -0.1,
+        "room": true,
+        "info": false
+      }
+    ]
+  },
+  {
+    "name": "epam",
+    "mass": [
+      {
+        "name": "cord1",
+        "yaw": -3.2,
+        "pitch": -0.2,
+        "room": true,
+        "info": false
+      }
+    ]
+  },
+  {
+    "name": "circle",
+    "mass": [
+      {
+        "name": "cord7",
+        "yaw": -0.05,
+        "pitch": -0.15,
+        "room": true,
+        "info": false
       }
     ]
   }

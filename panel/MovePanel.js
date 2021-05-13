@@ -7,17 +7,18 @@ export default class MovePanel extends React.Component {
     state = {
         img: {
             name: 'move1.png',
-            width: 60,
-            height: 60
+            width: 100,
+            height: 100
         },
         img2: {
             name: 'move2.png',
-            width: 60,
-            height: 60
+            width: 100,
+            height: 100
         }
     }
 
     render() {
+
         let img = this.props.room ? this.state.img2 : this.state.img;
         return (
             <View>

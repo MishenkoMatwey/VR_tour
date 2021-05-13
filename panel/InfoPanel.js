@@ -10,7 +10,7 @@ export default class InfoPanel extends React.Component {
     state = {
         html: (
             <VrButton onClick={() => this.changePanel(this.props.id)}>
-                <Image source={asset('info.png')} style={{width: 60, height: 60}}/>
+                <Image source={asset('info.png')} style={{width: 100, height: 100}}/>
             </VrButton>
         )
     }

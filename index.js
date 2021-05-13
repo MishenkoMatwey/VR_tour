@@ -4,7 +4,7 @@ import MovePanel from './panel/MovePanel'
 import {AppRegistry, NativeModules} from 'react-360';
 
 const surfaceModule = NativeModules.SurfaceModule;
-const startRootName = '1'
+const startRootName = 'cord1'
 export default class VR_tour extends React.Component {
 
     render() {
