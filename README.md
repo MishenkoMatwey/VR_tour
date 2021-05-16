@@ -6,26 +6,11 @@
 - npm start 
 - откройте браузер по адресу http://localhost:8081/index.html
 
-`В случае возникновении ошибки:` <br>
+***В случае возникновении ошибки :*** <br>
 Invalid regular expression: 
 /(node_modules[\\\]react[\\\]dist[\\\].*|website\\node_modules\\.*|heapCapture\\bundle\.js|.*\\__tests__\\.*)$/: 
 Unterminated character class
 
-***В файле : *** 
-.....\VR_tour\node_modules\metro\src\blacklist.js
-
-var sharedBlacklist = [
-  /node_modules[/\\]react[/\\]dist[/\\].*/,
-  /website\/node_modules\/.*/,
-  /heapCapture\/bundle\.js/,
-  /.*\/__tests__\/.*/
-];
-
-***Заменить на 
-
-var sharedBlacklist = [
-  /node_modules[\/\\]react[\/\\]dist[\/\\].*/,
-  /website\/node_modules\/.*/,
-  /heapCapture\/bundle\.js/,
-  /.*\/__tests__\/.*/
-];
+***Воспользуйтесь следующей инструкцией :***
+<br>
+https://stackoverflow.com/questions/58120990/how-to-resolve-the-error-on-react-native-start?answertab=votes#tab-top
