@@ -6,7 +6,7 @@
 - npm start 
 - откройте браузер по адресу http://localhost:8081/index.html
 
-***В случае возникновении ошибки :*** <br>
+***В случае возникновения ошибки :*** <br>
 Invalid regular expression: 
 /(node_modules[\\\]react[\\\]dist[\\\].*|website\\node_modules\\.*|heapCapture\\bundle\.js|.*\\__tests__\\.*)$/: 
 Unterminated character class
