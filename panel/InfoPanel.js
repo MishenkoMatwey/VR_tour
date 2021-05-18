@@ -45,7 +45,7 @@ export default class InfoPanel extends React.Component {
     }
 
     resetPanel(id) {
-        this._changeSurfaceDimensions(60, 60, id)
+        this._changeSurfaceDimensions(100, 100, id)
         this.setState({
             html: (
                 <VrButton onClick={() => this.changePanel(this.props.id)}>
